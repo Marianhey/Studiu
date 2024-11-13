@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    Privet
+    <div class="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Utilizator" required>
+        <input type="password" id="password" placeholder="Parolă" required>
+        <button onclick="login()">Autentificare</button>
+        <p class="error" id="error-message">Nume de utilizator sau parolă incorecte.</p>
+    </div>
 </body>
 </html>
